@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code &lt; Coffee</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/logo.png" type="image/png" />
+
+ 
+  </head>
+  <body>
+    <div class="coffee-loader">
+      <div class="glass">
+        <div class="coffee"></div>
+      </div>
+    </div>
+
+    <div class="background"></div>
+    <div class="content">
+      <nav class="sidebar close">
+        <header>
+          <div class="image-text">
+            <span class="image">
+              <img src="images/logo.png" alt="logo" />
+            </span>
+            <div class="text header-text">
+              <span class="name">Code < Coffee</span>
+              <span class="profession">Coffee Shop</span>
+            </div>
+          </div>
+          <i class="bx bx-chevron-right toggle"></i>
+        </header>
+        <div class="menu-bar">
+          <div class="menu">
+            <ul class="menu-links">
+              <li class="nav-link">
+                <a href="index.html">
+                  <i class="bx bx-home-alt icon"></i>
+                  <span class="text nav-text">Home</span>
+                </a>
+              </li>
+              <li class="nav-link">
+                <a href="menu.html">
+                  <i class="bx bx-coffee icon"></i>
+                  <span class="text nav-text">Menu</span>
+                </a>
+              </li>
+              <li class="nav-link">
+                <a href="best.html">
+                  <i class="bx bx-coffee-togo icon"></i>
+                  <span class="text nav-text">Best Sellers</span>
+                </a>
+              </li>
+              <li class="nav-link">
+                <a href="devs.html">
+                  <i class="bx bx-code-alt icon"></i>
+                  <span class="text nav-text">Devs</span>
+                </a>
+              </li>
+              <li class="nav-link">
+                <a href="about.html">
+                  <i class="bx bx-info-circle icon"></i>
+                  <span class="text nav-text">About</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="bottom-content">
+            <li class="mode">
+              <div class="moon-sun">
+                <i class="bx bx-moon icon moon"></i>
+                <i class="bx bx-sun icon sun"></i>
+              </div>
+              <span class="mode-text text">Dark Mode</span>
+              <div class="toggle-switch">
+                <span class="switch"></span>
+              </div>
+            </li>
+          </div>
+        </div>
+      </nav>
+
+      <nav class="mobile-nav-top">
+        <div class="container">
+          <div class="image-text">
+            <span class="image">
+              <img src="images/logo.png" alt="logo" />
+            </span>
+          </div>
+          <div class="text header-text">
+            <span class="name">Code &lt; Coffee</span>
+          </div>
+          <div class="bottom-content">
+            <li class="mode">
+              <div class="toggle-switch">
+                <span class="switch"></span>
+              </div>
+            </li>
+          </div>
+        </div>
+      </nav>
+
+      <nav class="mobile-nav">
+        <div class="menu">
+          <ul class="menu-links">
+            <li class="nav-link">
+              <a href="index.html">
+                <i class="bx bx-home-alt icon"></i>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="menu.html">
+                <i class="bx bx-coffee icon"></i>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="best.html">
+                <i class="bx bx-coffee-togo icon"></i>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="devs.html">
+                <i class="bx bx-code-alt icon"></i>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="about.html">
+                <i class="bx bx-info-circle icon"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div id="adContainer"></div>
+
+      <section class="home">
+        <div class="text" id="first">Menu</div>
+        <div class="text">Hot Coffee ... ₱68.00</div>
+        <main class="cards">
+          <article class="card">
+            <img src="images/products/spanishlatte-hc.jpg" alt="Sample photo" />
+            <div class="text">
+              <h3>Spanish Latte</h3>
+              <p>
+                ●¼ cup sweetened condensed milk<br />
+                ●1 cup scalded milk of choice<br />
+                ●2 shots fresh brewed espresso<br />
+                ●Espresso powder
+              </p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="images/products/mochalatte-hc.jpg" alt="Sample photo" />
+            <div class="text">
+              <h3>Mocha Latte</h3>
+              <p>
+                ●8 ounces hot brewed strong coffee<br />
+                ●2 tablespoons hot chocolate mix<br />
+                ●1/4 cup whole milk
+              </p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="images/products/choco.jpg" alt="Sample photo" />
+            <div class="text">
+              <h3>Choco Mocha</h3>
+              <p>
+                ●20 g Milk chocolate pieces<br />
+                ●• 60 ml Double espresso<br />
+                ●2 130 ml Foamed milk<br />
+               
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="images/products/black.jpg" alt="Sample photo" />
+            <div class="text">
+              <h3>Hot Americano</h3>
+              <p>
+                ●2tbs of Sugar<br />
+                ●60 ml Double espresso<br />
+                ●2 creamer optional<br />
+               
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="images/products/swril.jpg" alt="Sample photo" />
+            <div class="text">
+              <h3>Dark Choco</h3>
+              <p>
+                ●2tbs Chocolate<br />
+                ●60 ml Double espresso<br />
+                ●2 creamer<br />
+               
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="images/products/es.jpg" alt="Sample photo" />
+            <div class="text">
+              <h3>Espresso shot</h3>
+              <p>
+                ●2tbs Sugar Syrup<br />
+                ●60 ml Double espresso<br />
+                ●2 creamer optional<br />
+               
+              </p>
+            </div>
+          </article>
+        </main>
+
+        <div class="text">Iced Coffee ... ₱108.00</div>
+        <main class="cards">
+          <article class="card">
+            <img
+              src="images/products/caramelmacchiatto-ic.jpg"
+              alt="Sample photo"
+            />
+            <div class="text">
+              <h3>Caramel Macchiato</h3>
+              <p>
+                ●1 tablespoon vanilla-flavored syrup<br />
+                ●⅓ cup ice cubes<br />
+                ●¾ cup milk ●4 ounces Gevalia® Cold Brew Concentrate - House
+                Blend<br />
+                ●1 tablespoon caramel sauce
+              </p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="images/products/hazelnut-ic.jpg" alt="Sample photo" />
+            <div class="text">
+              <h3>Hazelnut Latte</h3>
+              <p>
+                ●¼ cup sweetened condensed milk<br />
+                ●1 cup scalded milk of choice<br />
+                ●1 cup ice cubes<br />
+                ●2 shots fresh brewed espresso
+              </p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="images/products/spanishlatte-ic.jpg" alt="Sample photo" />
+            <div class="text">
+              <h3>Spanish Latte</h3>
+              <p>
+                ●2 ½ tbsp Hazelnut Syrup<br />
+                ●1 cup (8oz) milk ●2 shots espresso*, chilled<br />
+                ●ice
+              </p>
+            </div>
+          </article>
+          <article class="card">
+            <img
+              src="images/products/saltedcaramel-ic.jpg"
+              alt="Sample photo"
+            />
+            <div class="text">
+              <h3>Salted Caramel</h3>
+              <p>
+                ●1 cup (8oz) brewed coffee, chilled<br />
+                ●2 tbsp (1 oz) Torani Salted Caramel
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img
+              src="images/products/strawberrylatte-ic.jpg"
+              alt="Sample photo"
+            />
+            <div class="text">
+              <h3>Strawberry Latte</h3>
+              <p>
+                ●1 cup (8oz) brewed coffee, chilled<br />
+                ●2 tbsp (1 oz) Torani Salted Caramel
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="images/products/whitemocha-ic.jpg" alt="Sample photo" />
+            <div class="text">
+              <h3>White Mocha Latte</h3>
+              <p>
+                ●1 cup (8oz) brewed coffee, chilled<br />
+                ●2 tbsp (1 oz) Torani Salted Caramel
+              </p>
+            </div>
+          </article>
+        </main>
+
+        <div class="text">Non-Coffee ... ₱98.00</div>
+        <main class="cards">
+          <article class="card">
+            <img
+              src="images/products/milkstrawberry-nc.jpg"
+              alt="Sample photo"
+            />
+            <div class="text">
+              <h3>Milky Strawberry</h3>
+              <p>
+                ●1.5 lb of Fresh Strawberries<br />
+                ●¼ cup of Sugar<br />
+                ●3 tablespoons of Honey<br />
+                ●1 tablespoon of Lemon Juice Milk
+              </p>
+            </div>
+          </article>
+          <article class="card">
+            <img
+              src="images/products/strawberrymatcha-nc.jpg"
+              alt="Sample photo"
+            />
+            <div class="text">
+              <h3>Strawberry Matcha</h3>
+              <p>
+                ●Matcha Powder<br />
+                ●Sweetener<br />
+                ●Milk<br />
+                ●Strawberry<br />
+                ●Heavy cream
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="images/products/chocofloat-nc.jpg" alt="Sample photo" />
+            <div class="text">
+              <h3>Choco Float</h3>
+              <p>
+                ●Matcha Powder<br />
+                ●Sweetener<br />
+                ●Milk<br />
+                ●Strawberry<br />
+                ●Heavy cream
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="images/products/milkymatcha-nc.jpg" alt="Sample photo" />
+            <div class="text">
+              <h3>Milky Matcha</h3>
+              <p>
+                ●Matcha Powder<br />
+                ●Sweetener<br />
+                ●Milk<br />
+                ●Strawberry<br />
+                ●Heavy cream
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img
+              src="images/products/pot.jpg"
+              alt="Sample photo"
+            />
+            <div class="text">
+              <h3>Port Cobller</h3>
+              <p>
+                ●1.5 lb of Fresh Strawberries<br />
+                ●¼ cup of Sugar<br />
+                ●3 tablespoons of Honey<br />
+                ●1 tablespoon of Lemon Juice Milk<br>
+                ●2 slice of Lemon
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img
+              src="images/products/grape.jpg"
+              alt="Sample photo"
+            />
+            <div class="text">
+              <h3>Blueberries</h3>
+              <p>
+                ●1.5 lb of Fresh Blueberry<br />
+                ●¼ cup of Sugar<br />
+                ●1 tablespoon of Lemon Juice<br>
+                ●5ml carbonated drink
+              </p>
+            </div>
+          </article>
+        </main>
+
+        <div class="text">Frappe ... ₱108.00</div>
+        <main class="cards">
+          <article class="card">
+            <img src="images/products/mangograham-f.webp" alt="Sample photo" />
+            <div class="text">
+              <h3>Mango Graham</h3>
+              <p>
+                ● ripe mangos<br />
+                ● white sugar<br />
+                ● water<br />
+                ● ice cubes<br />
+                ● milk<br />
+                ● crushed graham crackers<br />
+                ●whipped cream
+              </p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="images/products/javachip-f.jpg" alt="Sample photo" />
+            <div class="text">
+              <h3>Java Chip</h3>
+              <p>
+                ● chocolate syrup<br />
+                ● chocolate chips<br />
+                ● freshly brewed dark roast coffee<br />
+                ● ice crushed<br />
+                ● whipped cream (optional)<br />
+                ● chocolate syrup (for drizzle)
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="images/products/vanillamatcha-f.jpg" alt="Sample photo" />
+            <div class="text">
+              <h3>Vanilla Matcha</h3>
+              <p>
+                ●milk ●ice cubes<br />
+                ●vanilla-flavored syrup<br />
+                ●matcha green tea powder<br />
+                ● whipped cream
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="images/products/strawberry-f.jpg" alt="Sample photo" />
+            <div class="text">
+              <h3>Strawberry</h3>
+              <p>
+                ●Vanilla ice cream<br />
+                ●Milk<br />
+                ●Strawberries<br />
+                ●Vanilla extract<br />
+                ●Crushed ice
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="images/products/c.jpg" alt="Sample photo" />
+            <div class="text">
+              <h3>Dark Oreo</h3>
+              <p>
+                ● 4 Oreo Cookies<br />
+                ● white sugar<br />
+                ● water<br />
+                ● ice cubes<br />
+                ● milk<br />
+                ● cocoa powder<br />
+                ●whipped cream
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="images/products/f.jpg" alt="Sample photo" />
+            <div class="text">
+              <h3>Caramel Beurre</h3>
+              <p>
+                ●2tbls of Caramel Syrup<br />
+                ● white sugar<br />
+                ● water<br />
+                ● ice cubes<br />
+                ● milk<br />
+                ●whipped cream
+              </p>
+            </div>
+          </article>
+        </main>
+
+        <div class="text">Croffles ... ₱98.00</div>
+        <main class="cards">
+          <article class="card">
+            <img src="images/products/plain-c.jpg" alt="Sample photo" />
+            <div class="text">
+              <h3>Plain</h3>
+              <p>
+                ● ripe mangos<br />
+                ● white sugar<br />
+                ● water<br />
+                ● ice cubes<br />
+                ● milk<br />
+                ● crushed graham crackers<br />
+                ●whipped cream
+              </p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="images/products/nutella-c.webp" alt="Sample photo" />
+            <div class="text">
+              <h3>Nutella</h3>
+              <p>
+                ● chocolate syrup<br />
+                ● chocolate chips<br />
+                ● freshly brewed dark roast coffee<br />
+                ● ice, crushed<br />
+                ● whipped cream (optional)v ● chocolate syrup (for drizzle)
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img
+              src="images/products/cookiesandcream-c.avif"
+              alt="Sample photo"
+            />
+            <div class="text">
+              <h3>Cookie and Cream</h3>
+              <p>
+                ●milk ●ice cubes<br />
+                ●vanilla-flavored syrup<br />
+                ●matcha green tea powder<br />
+                ● whipped cream
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img
+              src="images/products/creamystrawberry-c.jpg"
+              alt="Sample photo"
+            />
+            <div class="text">
+              <h3>Creamy Strawberry</h3>
+              <p>
+                ●Vanilla ice cream<br />
+                ●Milk<br />
+                ●Strawberries<br />
+                ●Vanilla extract<br />
+                ●Crushed ice
+              </p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="images/products/creamymatcha-c.jpg" alt="Sample photo" />
+            <div class="text">
+              <h3>Creamy Matcha</h3>
+              <p>
+                ●Vanilla ice cream<br />
+                ●Milk<br />
+                ●Strawberries<br />
+                ●Vanilla extract<br />
+                ●Crushed ice
+              </p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="images/products/nutellaalmond-c.jpg" alt="Sample photo" />
+            <div class="text">
+              <h3>Nutella Almond</h3>
+              <p>
+                ●Vanilla ice cream<br />
+                ●Milk<br />
+                ●Strawberries<br />
+                ●Vanilla extract<br />
+                ●Crushed ice
+              </p>
+            </div>
+          </article>
+        </main>
+
+        <div class="text">Add-ons ... ₱28.00</div>
+        <main class="cards" id="adons">
+          <article class="card">
+            <img src="images/products/sugar-ao.jpg" alt="Sample photo" />
+            <div class="text">
+              <h3>Sugar</h3>
+            </div>
+          </article>
+          <article class="card">
+            <img src="images/products/nutella-c.webp" alt="Sample photo" />
+            <div class="text">
+              <h3>Nutella</h3>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="images/products/sauce-ao.jpg" alt="Sample photo" />
+            <div class="text">
+              <h3>Sauce</h3>
+            </div>
+          </article>
+
+          <article class="card">
+            <img
+              src="images/products/espressoshot-ao.webp"
+              alt="Sample photo"
+            />
+            <div class="text">
+              <h3>Espresso Shot</h3>
+            </div>
+          </article>
+          <article class="card">
+            <img src="images/products/milk-ao.jpg" alt="Sample photo" />
+            <div class="text">
+              <h3>Milk</h3>
+            </div>
+          </article>
+          <article class="card">
+            <img src="images/products/almondmilk-ao.jpg" alt="Sample photo" />
+            <div class="text">
+              <h3>Almond Milk</h3>
+            </div>
+          </article>
+          <article class="card" id="ice">
+            <img src="images/products/icedcream-ao.jpg" alt="Sample photo" />
+            <div class="text">
+              <h3>Iced Cream</h3>
+            </div>
+          </article>
+        </main>
+      </section>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
